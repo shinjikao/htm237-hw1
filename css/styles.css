@@ -1,0 +1,196 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+/*
+手機圖 http://i.imgur.com/DH1JUY1.png
+replace http://img1.gtimg.com/jiangsu/pics/hv1/231/60/1530/99503781.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+.container{
+  
+}
+
+header{
+ width: 960px;
+ margin: 0 auto;
+}
+
+
+h1{
+	float:left;
+}
+
+header ul{
+	float: left;
+	margin-top:3em;
+	list-style-type:none;
+}
+
+header li{
+	float:left;
+	margin-left:3em;
+}
+
+header div{
+
+	float:right;
+	margin-top:3em;
+}
+
+.signin{
+	color:#ccc;
+}
+
+
+section{
+	width: 960px;
+	margin:0 auto;
+	font-size:20px;
+	height:350px;
+	position:relative;
+clear: both;
+	
+	background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}
+
+section .phone{
+
+	position: absolute;
+	top:0;
+	left:80px;
+
+
+}
+
+
+section .phone-desc{
+	position:absolute;
+	top:40px;
+	left: 560px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+section ul{
+	list-style-type:none;
+	padding-left: 0px;
+}
+
+section li{
+	list-style-type:none;
+	margin: 0px;
+}
+
+.price{
+	font-size:24px;
+}
+
+
+button{
+padding:10px 40px;
+color: #fff;
+border: 0;
+border-radius: 100px;
+
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
+
+/*
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+
+
+
+footer{
+	width: 960px;
+	margin:80px auto;
+	clear: both;
+
+	
+}
+
+
+footer h3, ul,.cover{
+	float:left;
+}
+
+
+footer h3{
+  font-size: 40px;
+  border: 3px #ccc double;
+  padding: 40px 15px;
+  width: 1em;
+  line-height: 1.3;
+  margin: 0;
+  margin-right: 16px;
+}
+
+
+footer ul{
+	padding:0;
+	margin:0;
+	margin-right: 40px;
+	list-style-type:none;
+
+}
+
+footer figure{
+	font-size:13px;
+	text-align: center;
+	border: 1px solid #ccc;
+	padding:8px 16px;
+
+}
+footer li figure{
+	border-top-width: 0px;
+
+}
+
+footer p {
+	clear:both;
+	text-align: center;
+}
+
+
+footer li:first-child figure{
+	border-top-width:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
